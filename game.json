@@ -1,0 +1,187 @@
+{
+    "category1": {
+        "100": {
+            "question": "first question?",
+            "answer": "first answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "200": {
+            "question": "second question?",
+            "answer": "second answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "300": {
+            "question": "third question?",
+            "answer": "third answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "400": {
+            "question": "fourth question?",
+            "answer": "fourth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "500": {
+            "question": "fifth question?",
+            "answer": "fifth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        }
+    },
+    "category2": {
+        "100": {
+            "question": "first question?",
+            "answer": "first answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "200": {
+            "question": "was ist auf dem Bild dargestellt?",
+            "answer": "Muundo",
+            "type": "image",
+            "images": "img/testimages",
+            "audio": null
+        },
+        "300": {
+            "question": "third question?",
+            "answer": "third answer",
+            "type": "audio",
+            "images": null,
+            "audio": "audio/testaudio"
+        },
+        "400": {
+            "question": "fourth question?",
+            "answer": "fourth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "500": {
+            "question": "fifth question?",
+            "answer": "fifth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        }
+    },
+    "category3": {
+        "100": {
+            "question": "first question?",
+            "answer": "first answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "200": {
+            "question": "second question?",
+            "answer": "second answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "300": {
+            "question": "third question?",
+            "answer": "third answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "400": {
+            "question": "fourth question?",
+            "answer": "fourth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "500": {
+            "question": "fifth question?",
+            "answer": "fifth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        }
+    },
+    "category4": {
+        "100": {
+            "question": "first question?",
+            "answer": "first answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "200": {
+            "question": "second question?",
+            "answer": "second answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "300": {
+            "question": "third question?",
+            "answer": "third answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "400": {
+            "question": "fourth question?",
+            "answer": "fourth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "500": {
+            "question": "fifth question?",
+            "answer": "fifth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        }
+    },
+    "category5": {
+        "100": {
+            "question": "first question?",
+            "answer": "first answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "200": {
+            "question": "second question?",
+            "answer": "second answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "300": {
+            "question": "third question?",
+            "answer": "third answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "400": {
+            "question": "fourth question?",
+            "answer": "fourth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "500": {
+            "question": "fifth question?",
+            "answer": "fifth answer",
+            "type": "text",
+            "images": null,
+            "audio": null
+        }
+    }
+}
