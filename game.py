@@ -223,10 +223,17 @@ def show_ans_image(event):
     ans_label = ctk.CTkLabel(master = frame_around_ans, justify=tk.CENTER, text = 'Antwort: ', font=LARGE_LABEL_FONT)
     ans_label.pack(padx = 20, pady = 20)
 
+    frame_around_images = ctk.CTkFrame(master=mainframe)
+    frame_around_images.pack(pady = 15)
+
+    q_image = ctk.CTkImage(Image.open(os.path.join(info['img'], 'crop.jpg')), size=(350, 350))
     a_image = ctk.CTkImage(Image.open(os.path.join(info['img'], 'full.jpg')), size=(350, 350))
 
-    a_label = ctk.CTkLabel(master = mainframe, justify=tk.CENTER, text = info['a'], font=MID_LABEL_FONT, image=a_image, text_color=ANSWER_COLOR)
-    a_label.pack(padx = 10, pady = 20)
+    q_label = ctk.CTkLabel(master = frame_around_images, justify=tk.CENTER, text = ' ', font=MID_LABEL_FONT, image=q_image, text_color=ANSWER_COLOR)
+    q_label.pack(padx = 10, pady = 10, side='left')
+
+    a_label = ctk.CTkLabel(master = frame_around_images, justify=tk.CENTER, text = info['a'], font=MID_LABEL_FONT, image=a_image, text_color=ANSWER_COLOR)
+    a_label.pack(padx = 10, pady = 10)
 
     ret_button = ctk.CTkButton(master=mainframe, text = 'Weiter', font = BUTTON_FONT)
     ret_button.pack(pady = 30)
