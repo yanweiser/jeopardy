@@ -8,7 +8,7 @@
             "audio": null
         },
         "200": {
-            "question": "Schätzfrage für Alle!!\n Wie viele Einwohner hat Potsdam? (+-10 000)",
+            "question": "Schätzfrage für Alle!! \n \n Wie viele Einwohner hat Potsdam? (+-10 000)",
             "answer": "ca. 185 000 (Stand: 31.12.2022)",
             "type": "text",
             "images": null,
@@ -23,7 +23,7 @@
         },
         "400": {
             "question": "Welches Gebäude stellt dieses Bild dar?",
-            "answer": "Das chinesiche Teehaus im Park Sanssouci",
+            "answer": "Das chinesiche \n Teehaus im Park \n Sanssouci",
             "type": "image",
             "images": "img/teehaus",
             "audio": null
@@ -60,7 +60,7 @@
         },
         "400": {
             "question": "Was war das Wunder von Bern?",
-            "answer": "Als das Wunder von Bern wird der Gewinn der Fußball-Weltmeisterschaft 1954 in der Schweiz durch die nach dem Ausschluss im November 1945 wieder startberechtigte bundesdeutsche FUßballnationalmannschaft gegen die favorisierte Nationalmannschaft Ungarns bezeichnet.",
+            "answer": "Als das Wunder von Bern wird der Gewinn der Fußball-Weltmeisterschaft\n 1954 in der Schweiz durch die nach dem Ausschluss im November 1945 \n wieder startberechtigte bundesdeutsche FUßballnationalmannschaft\ngegen die favorisierte Nationalmannschaft Ungarns bezeichnet.",
             "type": "text",
             "images": null,
             "audio": null
@@ -97,7 +97,7 @@
         },
         "400": {
             "question": "Was ist ein Treble?",
-            "answer": "Ein Treble ist ein Klangregler, der die höheren Töne bzw. Frequenzen beeinflusst.",
+            "answer": "Ein Treble ist ein Klangregler, der die \n höheren Töne bzw. Frequenzen beeinflusst.",
             "type": "text",
             "images": null,
             "audio": null
@@ -119,22 +119,22 @@
             "audio": null
         },
         "200": {
-            "question": "Schätzfrage für Alle!!\n Wieviele Biermarken gibt es in Deutschland?",
+            "question": "Schätzfrage für Alle!! \n \n Wieviele Biermarken gibt es in Deutschland?",
             "answer": "Es gibt in Deutschland ca. 7500 verschiedene Biermarken.",
             "type": "text",
             "images": null,
             "audio": null
         },
         "300": {
-            "question": "Welcher Cocktail besteht aus: Wodka, Triple Sec, Cranberrysaft und Limettensaft?",
+            "question": "Welcher Cocktail besteht aus: \n Wodka, Triple Sec, Cranberrysaft und Limettensaft?",
             "answer": "Der Cosmopolitan",
             "type": "text",
             "images": null,
             "audio": null
         },
         "400": {
-            "question": "Vermehrter Bierkonsum soll bei Frauen zu größeren Brüsten führen. Wodurch?",
-            "answer": "Durch die Hormone im Hopfen.\n Die im Hopfen enthaltenen pflanzlichen Östrogene sollen zu einer größeren Oberweite führen können. Wissenschaftlich lässt sich diese Behauptung allerdings nur schwer belegen. Sicher ist dagegen, dass Hopfenwirkstoffe bei Frauen eine luststeigernde Wirkung haben.",
+            "question": "Vermehrter Bierkonsum soll bei Frauen \n zu größeren Brüsten führen. \n Wodurch?",
+            "answer": "Durch die Hormone im Hopfen.\n Die im Hopfen enthaltenen pflanzlichen Östrogene sollen zu einer \n größeren Oberweite führen können. Wissenschaftlich lässt \n sich diese Behauptung allerdings nur schwer belegen. \n Sicher ist dagegen, dass Hopfenwirkstoffe bei Frauen \n eine luststeigernde Wirkung haben.",
             "type": "text",
             "images": null,
             "audio": null
@@ -157,7 +157,7 @@
         },
         "200": {
             "question": "Was wurde im Mittelalter zur Verhütung verwendet?",
-            "answer": "Naturdarm/n Im Mittelalter und bis ins 18. Jahrhundert wurde einseitig zugeknoteter Schafsdarm (Naturdarm) als Verhütungsmittel verwendet.",
+            "answer": "Naturdarm \n \n Im Mittelalter und bis ins 18. Jahrhundert wurde \n einseitig zugeknoteter Schafsdarm (Naturdarm) \n als Verhütungsmittel verwendet.",
             "type": "text",
             "images": null,
             "audio": null
@@ -178,7 +178,7 @@
         },
         "500": {
             "question": "Welche Bundesländer gehörten zur früheren DDR?",
-            "answer": "Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen",
+            "answer": "Mecklenburg-Vorpommern, \n Brandenburg, \n Sachsen, \n Sachsen-Anhalt, \n Thüringen",
             "type": "text",
             "images": null,
             "audio": null
@@ -193,8 +193,8 @@
             "audio": null
         },
         "200": {
-            "question": "Schätzfrage für Alle!!/n Wieviele Menschen sind im Jahr 2023 gestorben? (bis November 2023)",
-            "answer": "992 082 Menschen sind bis November 2023 gestorben.",
+            "question": "Schätzfrage für Alle!! \n \n Wieviele Menschen sind im Jahr 2023 gestorben? \n (bis November 2023)",
+            "answer": "992 082 \n Menschen sind bis November 2023 gestorben.",
             "type": "text",
             "images": null,
             "audio": null
