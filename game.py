@@ -1,7 +1,9 @@
 import customtkinter as ctk
 import tkinter as tk
 import json
+from pygame import mixer
 import os
+
 
 from PIL import Image
 
@@ -9,7 +11,7 @@ ctk.set_appearance_mode('Light')
 ctk.set_default_color_theme('green')
 
 app = ctk.CTk()
-app.geometry("1300x850")
+app.geometry("1500x850")
 
 popup = True
 
@@ -93,11 +95,12 @@ def main_view():
                 'val': str((j+1)*100),
                 'img': data[categories[i]][str((j+1)*100)]['images'],
                 'type': data[categories[i]][str((j+1)*100)]['type'],
-                'audio': data[categories[i]][str((j+1)*100)]['type']
+                'audio': data[categories[i]][str((j+1)*100)]['audio']
             }
             qs[i][j].info = info
             qs[i][j]._canvas.info = info
             qs[i][j]._text_label.info = info
+
 
 def show_q(event):
     if data[event.widget.info['cat']][event.widget.info['val']]['done']:
@@ -106,8 +109,7 @@ def show_q(event):
     if event.widget.info['type'] == 'image':
         image_question(event.widget.info)
     elif event.widget.info['type'] == 'audio':
-        pass
-        # audio_question()
+        audio_question(event.widget.info)
     else:
         global mainframe
         mainframe.destroy()
@@ -166,6 +168,98 @@ def image_question(info):
     cont.info = info
     cont._canvas.info = info
     cont._text_label.info = info
+
+
+def audio_question(info):
+
+    global mainframe
+    mainframe.destroy()
+    mainframe = ctk.CTkFrame(master=app)
+    mainframe.pack(pady=20, padx=20, fill='both', expand=True)
+
+    frame_around_label = ctk.CTkFrame(master=mainframe)
+    frame_around_label.pack(pady = 15)
+
+    cat_label = ctk.CTkLabel(master = frame_around_label, justify=tk.CENTER, text = info['cat'] + ' - ' + info['val'], font=SMALL_LABEL_FONT)
+    cat_label.pack(padx = 20, pady = 15)
+
+    q_label = ctk.CTkLabel(master = mainframe, justify=tk.CENTER, text = info['q'], font=MID_LABEL_FONT, text_color=QUESTION_COLOR)
+    q_label.pack(padx = 20, pady = 10)
+
+
+    mixer.init()
+
+    def play(event):
+        mixer.music.load(os.path.join(info['audio'],'crop.mp3'))
+        mixer.music.play()
+
+
+    q_image = ctk.CTkImage(Image.open(os.path.join('img', 'play.png')), size=(80, 80))
+    audio_button = ctk.CTkButton(master = mainframe, text = '', image = q_image, fg_color=QUESTION_COLOR)
+    audio_button.pack(padx=15, pady=15)
+    audio_button.bind('<Button-1>', play)
+
+    cont = ctk.CTkButton(master=mainframe, text = 'Antwort', font=BUTTON_FONT)
+    cont.pack(padx = 20, pady = 40)
+    cont.bind('<Button-1>', show_ans_audio)
+    cont.info = info
+    cont._canvas.info = info
+    cont._text_label.info = info
+
+
+def show_ans_audio(event):
+    info = event.widget.info
+    data[info['cat']][info['val']]['done'] = True
+    global mainframe
+    mainframe.destroy()
+    mainframe = ctk.CTkFrame(master=app)
+    mainframe.pack(pady=20, padx=20, fill='both', expand=True)
+
+    frame_around_label = ctk.CTkFrame(master=mainframe)
+    frame_around_label.pack(pady = 15)
+
+
+    cat_label = ctk.CTkLabel(master = frame_around_label, justify=tk.CENTER, text = info['cat'] + ' - ' + info['val'], font=SMALL_LABEL_FONT)
+    cat_label.pack(padx = 20, pady = 15)
+
+    q_label = ctk.CTkLabel(master = mainframe, justify=tk.CENTER, text = info['q'], font=MID_LABEL_FONT, text_color=QUESTION_COLOR)
+    q_label.pack(padx = 20, pady = 10)
+
+
+    mixer.init()
+
+    def play(event):
+        mixer.music.load(os.path.join(info['audio'],'crop.mp3'))
+        mixer.music.play()
+
+    def play_ans(event):
+        mixer.music.load(os.path.join(info['audio'],'full.mp3'))
+        mixer.music.play()
+
+
+    q_image = ctk.CTkImage(Image.open(os.path.join('img', 'play.png')), size=(80, 80))
+    audio_button = ctk.CTkButton(master = mainframe, text = '', image = q_image, fg_color = QUESTION_COLOR)
+    audio_button.pack(padx=15, pady=15)
+    audio_button.bind('<Button-1>', play)
+
+    frame_around_ans = ctk.CTkFrame(master=mainframe)
+    frame_around_ans.pack(pady = 15)
+
+    ans_label = ctk.CTkLabel(master = frame_around_ans, justify=tk.CENTER, text = 'Antwort: ', font=LARGE_LABEL_FONT)
+    ans_label.pack(padx = 20, pady = 20)
+
+    a_label = ctk.CTkLabel(master = mainframe, justify=tk.CENTER, text = info['a'], font=MID_LABEL_FONT, text_color=ANSWER_COLOR)
+    a_label.pack(padx = 10, pady = 20)
+
+    audio_button = ctk.CTkButton(master = mainframe, text = '', image = q_image, fg_color=ANSWER_COLOR)
+    audio_button.pack(padx=15, pady=15)
+    audio_button.bind('<Button-1>', play_ans)
+
+    ret_button = ctk.CTkButton(master=mainframe, text = 'Weiter', font = BUTTON_FONT)
+    ret_button.pack(pady = 30)
+    ret_button.bind('<Button-1>', main_view_call)
+
+
 
 def show_ans(event):
     info = event.widget.info
