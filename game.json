@@ -1,184 +1,221 @@
 {
-    "category1": {
+    "Potsdam": {
         "100": {
-            "question": "first question?",
-            "answer": "first answer",
+            "question": "Was bedeutet Sanssouci?",
+            "answer": "Ohne Sorge",
             "type": "text",
             "images": null,
             "audio": null
         },
         "200": {
-            "question": "second question?",
-            "answer": "second answer",
+            "question": "Schätzfrage für Alle!!\n Wie viele Einwohner hat Potsdam? (+-10 000)",
+            "answer": "ca. 185 000 (Stand: 31.12.2022)",
             "type": "text",
             "images": null,
             "audio": null
         },
         "300": {
-            "question": "third question?",
-            "answer": "third answer",
+            "question": "Welcher berühmte König von Preußen regierte im Schloss Sanssouci?",
+            "answer": "Friedrich II./ Friedrich der Große",
             "type": "text",
             "images": null,
             "audio": null
         },
         "400": {
-            "question": "fourth question?",
-            "answer": "fourth answer",
-            "type": "text",
-            "images": null,
+            "question": "Welches Gebäude stellt dieses Bild dar?",
+            "answer": "Das chinesiche Teehaus im Park Sanssouci",
+            "type": "image",
+            "images": "img/teehaus",
             "audio": null
         },
         "500": {
-            "question": "fifth question?",
-            "answer": "fifth answer",
+            "question": "Wieviele Schlösser gibt es in Potsdam? (+-1)",
+            "answer": "16",
             "type": "text",
             "images": null,
             "audio": null
         }
     },
-    "category2": {
+    "Sport": {
         "100": {
-            "question": "first question?",
-            "answer": "first answer",
+            "question": "Wie hoch hängt ein Basketballkorb?",
+            "answer": "3.05m",
             "type": "text",
             "images": null,
             "audio": null
         },
         "200": {
-            "question": "was ist auf dem Bild dargestellt?",
-            "answer": "Muundo",
-            "type": "image",
-            "images": "img/testimages",
+            "question": "Wieviele Spieler sind beim Eishockey pro Mannschaft auf dem Feld?",
+            "answer": "6 Spieler (einschließlich Torwart)",
+            "type": "text",
+            "images": null,
             "audio": null
         },
         "300": {
-            "question": "third question?",
-            "answer": "third answer",
+            "question": "Wofür stehen die fünf olympischen Ringe?",
+            "answer": "Für die fünf Kontinente",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "400": {
+            "question": "Was war das Wunder von Bern?",
+            "answer": "Als das Wunder von Bern wird der Gewinn der Fußball-Weltmeisterschaft 1954 in der Schweiz durch die nach dem Ausschluss im November 1945 wieder startberechtigte bundesdeutsche FUßballnationalmannschaft gegen die favorisierte Nationalmannschaft Ungarns bezeichnet.",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "500": {
+            "question": "Welches Land gewann die erste Fußball-Weltmeisterschaft 1930?",
+            "answer": "Uruguay",
+            "type": "text",
+            "images": null,
+            "audio": null
+        }
+    },
+    "Musik": {
+        "100": {
+            "question": "Welcher Song ist das?",
+            "answer": "Der Goldene Reiter - Joachim Witt",
             "type": "audio",
             "images": null,
-            "audio": "audio/testaudio"
-        },
-        "400": {
-            "question": "fourth question?",
-            "answer": "fourth answer",
-            "type": "text",
-            "images": null,
-            "audio": null
-        },
-        "500": {
-            "question": "fifth question?",
-            "answer": "fifth answer",
-            "type": "text",
-            "images": null,
-            "audio": null
-        }
-    },
-    "category3": {
-        "100": {
-            "question": "first question?",
-            "answer": "first answer",
-            "type": "text",
-            "images": null,
-            "audio": null
+            "audio": "audio/reiter"
         },
         "200": {
-            "question": "second question?",
-            "answer": "second answer",
+            "question": "Wieviele Tasten hat ein Kalvier?",
+            "answer": "88 Tasten",
             "type": "text",
             "images": null,
             "audio": null
         },
         "300": {
-            "question": "third question?",
-            "answer": "third answer",
-            "type": "text",
+            "question": "Welcher Song ist das?",
+            "answer": "Oft gefragt - AnnenMayKantereit",
+            "type": "audio",
             "images": null,
-            "audio": null
+            "audio": "audio/oft"
         },
         "400": {
-            "question": "fourth question?",
-            "answer": "fourth answer",
+            "question": "Was ist ein Treble?",
+            "answer": "Ein Treble ist ein Klangregler, der die höheren Töne bzw. Frequenzen beeinflusst.",
             "type": "text",
             "images": null,
             "audio": null
         },
         "500": {
-            "question": "fifth question?",
-            "answer": "fifth answer",
-            "type": "text",
+            "question": "Welcher Song ist das?",
+            "answer": "Für Elise - Ludwig van Beethoven",
+            "type": "audio",
             "images": null,
-            "audio": null
+            "audio": "audio/elise"
         }
     },
-    "category4": {
+    "Alkohol": {
         "100": {
-            "question": "first question?",
-            "answer": "first answer",
+            "question": "Aus wievielen Kräutern besteht Jägermeister?",
+            "answer": "56",
             "type": "text",
             "images": null,
             "audio": null
         },
         "200": {
-            "question": "second question?",
-            "answer": "second answer",
+            "question": "Schätzfrage für Alle!!\n Wieviele Biermarken gibt es in Deutschland?",
+            "answer": "Es gibt in Deutschland ca. 7500 verschiedene Biermarken.",
             "type": "text",
             "images": null,
             "audio": null
         },
         "300": {
-            "question": "third question?",
-            "answer": "third answer",
+            "question": "Welcher Cocktail besteht aus: Wodka, Triple Sec, Cranberrysaft und Limettensaft?",
+            "answer": "Der Cosmopolitan",
             "type": "text",
             "images": null,
             "audio": null
         },
         "400": {
-            "question": "fourth question?",
-            "answer": "fourth answer",
+            "question": "Vermehrter Bierkonsum soll bei Frauen zu größeren Brüsten führen. Wodurch?",
+            "answer": "Durch die Hormone im Hopfen.\n Die im Hopfen enthaltenen pflanzlichen Östrogene sollen zu einer größeren Oberweite führen können. Wissenschaftlich lässt sich diese Behauptung allerdings nur schwer belegen. Sicher ist dagegen, dass Hopfenwirkstoffe bei Frauen eine luststeigernde Wirkung haben.",
             "type": "text",
             "images": null,
             "audio": null
         },
         "500": {
-            "question": "fifth question?",
-            "answer": "fifth answer",
+            "question": "Wo wurde das erste Bier getrunken/gebraut?",
+            "answer": "Das erste Bier wurde vor ca. 9000 Jahren in China getrunken.",
             "type": "text",
             "images": null,
             "audio": null
         }
     },
-    "category5": {
+    "Geschichte": {
         "100": {
-            "question": "first question?",
-            "answer": "first answer",
+            "question": "Wer hat die Relativitätstheorie entwickelt?",
+            "answer": "Albert Einstein (1905)",
             "type": "text",
             "images": null,
             "audio": null
         },
         "200": {
-            "question": "second question?",
-            "answer": "second answer",
+            "question": "Was wurde im Mittelalter zur Verhütung verwendet?",
+            "answer": "Naturdarm/n Im Mittelalter und bis ins 18. Jahrhundert wurde einseitig zugeknoteter Schafsdarm (Naturdarm) als Verhütungsmittel verwendet.",
             "type": "text",
             "images": null,
             "audio": null
         },
         "300": {
-            "question": "third question?",
-            "answer": "third answer",
+            "question": "Wer war der fünfte Bundeskanzler der BRD?",
+            "answer": "Helmut Schmidt (1974-1982)",
             "type": "text",
             "images": null,
             "audio": null
         },
         "400": {
-            "question": "fourth question?",
-            "answer": "fourth answer",
+            "question": "In welchem Jahr war die Weltwirtschaftskrise?",
+            "answer": "1929",
             "type": "text",
             "images": null,
             "audio": null
         },
         "500": {
-            "question": "fifth question?",
-            "answer": "fifth answer",
+            "question": "Welche Bundesländer gehörten zur früheren DDR?",
+            "answer": "Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen",
+            "type": "text",
+            "images": null,
+            "audio": null
+        }
+    },
+    "2023": {
+        "100": {
+            "question": "Was war der meistgestreamte Song in Deutschland?",
+            "answer": "Komet - Apache 207, Udo Lindenberg",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "200": {
+            "question": "Schätzfrage für Alle!!/n Wieviele Menschen sind im Jahr 2023 gestorben? (bis November 2023)",
+            "answer": "992 082 Menschen sind bis November 2023 gestorben.",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "300": {
+            "question": "Welche WM hat Deutschland dieses Jahr gewonnen?",
+            "answer": "Basketball-WM",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "400": {
+            "question": "In wievielen Bundesländern wurde dieses Jahr der Landtag gewählt?",
+            "answer": "3 Bundesländer - Hessen, Bremen, Bayern",
+            "type": "text",
+            "images": null,
+            "audio": null
+        },
+        "500": {
+            "question": "Welcher Film ist auf Platz 2 der erfolgreichsten Filme 2023?",
+            "answer": "Der Super Mario Bros. Film",
             "type": "text",
             "images": null,
             "audio": null
